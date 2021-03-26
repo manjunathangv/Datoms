@@ -45,7 +45,7 @@ class Users extends React.Component {
                                 <th>{item.email}</th>
                                 <th>{item.first_name}</th>
                                 <th>{item.last_name}</th>
-                                <th><img src={item.avatar}></img></th>
+                                <th><img src={item.avatar} alt="user Avartar"></img></th>
                             </tr>
                         })
 
