@@ -7,7 +7,7 @@ export default class Users extends React.Component {
         count : 9
     }
     handleSearch = (e) => {
-        let searchValue = e.target.value.toLowerCase();
+        
         this.setState({ searchValue: e.target.value})
     }
     colorme = () => {
