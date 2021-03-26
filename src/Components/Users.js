@@ -15,7 +15,7 @@ class Users extends React.Component {
     handleSearch = (e) => {
         let searchValue = e.target.value.toLowerCase();
         const { newusers } = this.state;
-        if (searchValue.length > 3) {
+        if (searchValue.length > 0) {
             let users = newusers.filter(item => {
                 return item.first_name.toLowerCase().includes(searchValue) || item.last_name.toLowerCase().includes(searchValue);
             });
